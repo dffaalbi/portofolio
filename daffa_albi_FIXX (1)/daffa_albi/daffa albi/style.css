@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* navbar */
+
+nav {
+  background-color: #1d1919;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  border-bottom: 3px solid #f8733a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  margin: 10px 50px;
+  justify-content: space-between;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #1432f8;
+}
+
+/* main */
+
+.main {
+  color: aliceblue;
+  background-color: #1a1a1af7;
+  display: flex;
+  width: 100%;
+  height: 45rem;
+}
+
+.main h1 {
+  text-align: center;
+  margin: 150px 0;
+}
+
+.main h2 {
+  margin-top: 200px;
+  margin-left: -400px;
+}
+.main img {
+  width: 300px;
+  margin: 100px 50px;
+  float: left;
+  height: 350px;
+}
+
+.about {
+  width: 100%;
+  background-color: #ececec;
+  margin-top: -40px;
+  position: relative;
+  height: 45rem;
+}
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.about p {
+  font-size: 30px;
+  text-align: justify;
+  width: 80%;
+  margin-left: 80px;
+  line-height: 50px;
+  border: black solid 2px;
+  padding: 20px;
+}
+/* skill */
+.skill {
+  color: white;
+  justify-content: center;
+  top: -50px;
+  background-color: #1a1a1af7;
+}
+.bahasac {
+  width: 900px;
+  /* margin-bottom: 50ox; */
+  border: 3px white solid;
+}
+.skill-text {
+  margin: 30px;
+  text-align: justify;
+  line-height: 40px;
+}
+.skill h1 {
+  text-align: center;
+}
+.html {
+  width: 900px;
+  margin-top: 50px;
+  border: 3px white solid;
+}
+.skill h1 {
+  text-align: center;
+}
+.CSS {
+  margin-top: 50px;
+  width: 900px;
+  border: 3px white solid;
+  margin-bottom: 100px;
+}
+.skill h1 {
+  text-align: center;
+}
+
+footer {
+  color: #1d1919;
+  width: 100%;
+
+  text-align: center;
+  background-color: #cacaca;
+  height: 50px;
+}
+
+.card {
+  margin-left: 300px;
+}
+.kontak {
+  margin-left: 78rem;
+}
+
+footer p {
+  font-size: 20px;
+}
